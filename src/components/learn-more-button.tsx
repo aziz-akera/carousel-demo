@@ -9,7 +9,7 @@ export function LearnMoreButton() {
       initial="rest"
       whileHover="hover"
       animate="rest"
-      className="relative flex items-center bg-white justify-between w-[280px] mx-auto h-[50px] cursor-pointer rounded-full px-6 py-2 font-medium text-zinc-800 "
+      className="relative flex items-center bg-white justify-between w-[220px] md:w-[280px] mx-auto h-[40px] md:h-[50px] cursor-pointer rounded-full px-4 md:px-6 py-2 font-medium text-zinc-800 "
     >
       <motion.div
         className="absolute right-0 top-0 bottom-0 w-[70px] rounded-r-full pointer-events-none z-[1]"

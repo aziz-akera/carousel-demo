@@ -124,7 +124,9 @@ export default function Carousel() {
                   </div>
 
                   <div className="max-w-md text-center mt-auto mb-8 z-20">
-                    <h2 className={`mb-4 text-4xl font-semibold text-white`}>
+                    <h2
+                      className={`mb-4 text-2xl md:text-4xl font-semibold text-white`}
+                    >
                       {panel.title}
                     </h2>
                     <p className={`mb-6 text-sm text-white`}>
